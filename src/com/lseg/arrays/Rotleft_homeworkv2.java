@@ -19,8 +19,8 @@ public class Rotleft_homeworkv2 {
         for (int iterationNumber = 1; iterationNumber <= d; iterationNumber++) {
             int temp = sir[0];
 
-            for (int i = 0; i <= sir.length - 2; i++) {
-                sir[i] = sir[i + 1];
+            for (int index = 0; index <= sir.length - 2; index++) {
+                sir[index] = sir[index + 1];
             }
 
             sir[sir.length - 1] = temp;
